@@ -1,11 +1,11 @@
 package afero
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"syscall"
 	"time"
-	"fmt"
 )
 
 // The CopyOnWriteFs is a union filesystem: a read only base file system with
